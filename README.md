@@ -16,5 +16,12 @@ Develop metaprompt with chat prompting method
 
 ## data extraction
 ### data_extraction.ipynb
-extract data for all variables at once (All-in-one data extraction)
-### 
+Extract data for all variables at once (All-in-one data extraction)
+### data_extraction_modified.ipynb
+Extract data with modified methods (Re-check and Re-extract prompting, Re-extract prompting and Batch data extraction)
+
+## Analysis
+### arm_matching.ipynb
+Match names of arms extracted by GPT and those by human
+### score_calculation.ipynb
+Calculate accuracy, sensitivity and specificity
