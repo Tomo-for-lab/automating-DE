@@ -10,7 +10,7 @@ This repository leverages large language models (LLMs) for systematic review, en
 This section contains notebooks for creating original descriptions for variables.
 - `create_original_description.ipynb`: Generates original descriptions for each variable based on the DE manual.
 
-### 2. Development of Metaprompt
+### 2. Develop Metaprompt
 
 This section includes notebooks for developing metaprompts using different methods.
 - `development_of_metaprompt_with_chat_prompting.ipynb`: Develops metaprompt using the chat prompting method.
