@@ -1,4 +1,4 @@
-# Code of Automating Data Extraction (DE)
+# Automating Data Extraction (DE)
 
 ## Overview
 This repository leverages large language models (LLMs) for systematic review, enabling efficient information extraction. There are Jupyter notebooks to automate the data extraction (DE) process, develop metaprompts, and evaluate results. All notebooks are designed to run on Google Colaboratory. Below are the descriptions of each notebook and their functionalities.
