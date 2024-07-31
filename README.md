@@ -14,7 +14,10 @@ This section contains notebooks for creating original descriptions for variables
 
 This section includes notebooks for developing metaprompts using different methods.
 - `development_of_metaprompt_with_chat_prompting.ipynb`: Develops metaprompt using the chat prompting method.
-- `development_of_metaprompt_with_prompting.ipynb`: Develops metaprompt using an alternative prompting method.
+- `development_of_metaprompt_with_chat_prompting_modified.ipynb`: Develops metaprompt using the chat prompting method (modified version).
+- `development_of_metaprompt_with_one_by_one_n_shots.ipynb`: Develops metaprompt using the one-by-one n-shot prompting method.
+- `development_of_metaprompt_with_conventional_n_shots.ipynb`: Develops metaprompt using the cnventional n-shot prompting method.
+
 
 ### 3. Data Extraction
 
