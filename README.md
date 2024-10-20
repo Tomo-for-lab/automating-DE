@@ -32,8 +32,12 @@ This section focuses on the evaluation of extracted data.
 - `score_calculation.ipynb`: Calculates accuracy, sensitivity, and specificity.
 
 ## Citation
-Coming soon
-
 ```
-replace this block to bibtex.
+@misc{kataoka2024automating,
+  author = {KATAOKA, Yuki},
+  title = {Automating the Data Extraction Process for Systematic Reviews using GPT-4o},
+  year = {2024},
+  url = {https://osf.io/cqg8u},
+  note = {Retrieved October 19, 2024}
+}
 ```
