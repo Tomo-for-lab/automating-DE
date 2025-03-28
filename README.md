@@ -29,7 +29,9 @@ This section is dedicated to data extraction processes.
 
 This section focuses on the evaluation of extracted data.
 - `arm_matching.ipynb`: Matches names of arms extracted by GPT with those extracted by humans.
-- `score_calculation.ipynb`: Calculates accuracy, sensitivity, and specificity.
+- `value_checker.ipynb`: Check whether the value extracted by human matches the value extracted by GPT.
+- `metric_calculation.ipynb`: Calculates accuracy, sensitivity, specificity and extract recall.
+
 
 ## Citation
 ```
