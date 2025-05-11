@@ -24,14 +24,15 @@ This section includes notebooks for developing metaprompts using different metho
 This section is dedicated to data extraction processes.
 - `data_extraction.ipynb`: Extracts data for all variables at once (All-in-one data extraction).
 - `data_extraction_modified.ipynb`: Extracts data using modified methods, including re-check and re-extract prompting, re-extract prompting and batch data extraction.
+- `data_extraction_additional_o3.py`: Extracts data using o3-high–based methods.
 
 ### 4. Evaluation
 
 This section focuses on the evaluation of extracted data.
 - `arm_matching.ipynb`: Matches names of arms extracted by GPT with those extracted by humans.
 - `value_checker.ipynb`: Check whether the value extracted by human matches the value extracted by GPT.
-- `metric_calculation.ipynb`: Calculates accuracy, sensitivity, specificity and extract recall.
-
+- `metric_calculation_with_precision.ipynb`: Calculates accuracy, sensitivity, specificity and precision.
+- `metric_calculation_with_variable_detection_comprehensiveness.ipynb`: Calculates accuracy, sensitivity, specificity and variable detection comprehensiveness.
 
 ## Citation
 ```
