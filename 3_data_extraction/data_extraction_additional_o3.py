@@ -503,7 +503,7 @@ for fold_index in range(5,10):
 
       # Creating input text
       for paper_num in range(len(eval_paper_list)):
-        dirpath = f"/Users/tomo/Library/CloudStorage/GoogleDrive-taka.too.6t@gmail.com/.shortcut-targets-by-id/1BvDZVW0Vytm9guiz4Hag9QI7QD_3szXw/01AI-Driven-metaanalysis/insomnia_DE_for_update/fulltext/{eval_paper_list[paper_num]}"
+        dirpath = f"insomnia_DE_for_update/fulltext/{eval_paper_list[paper_num]}"
         paper_query = extract_sentence(dirpath)
         content_prompt_GPT.append({"type": "input_text", "text":paper_query})
 
