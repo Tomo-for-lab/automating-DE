@@ -1,0 +1,12 @@
+python-docx
+openai
+weave
+pandas
+numpy
+tqdm
+ipykernel
+notebook
+requests
+google-api-python-client
+openpyxl
+python-dotenv
