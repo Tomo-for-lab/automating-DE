@@ -70,6 +70,10 @@ This section focuses on the evaluation of extracted data.
 - `metric_calculation_with_precision.ipynb`: Calculates accuracy, sensitivity, specificity and precision.
 - `metric_calculation_with_variable_detection_comprehensiveness.ipynb`: Calculates accuracy, sensitivity, specificity and variable detection comprehensiveness.
 
+## Dataset Availability
+
+As mentioned in our paper, the datasets (1, 2, and 3) include many copyrighted research papers. While data extraction from these works is permissible for research purposes, releasing the full papers here would constitute copyright infringement. Consequently, the complete datasets are **not** distributed in this repository. Researchers who wish to access them should **contact the authors directly**.
+
 ## Citation
 ```
 @misc{kataoka2024automating,
