@@ -31,7 +31,43 @@ The notebooks assume this hierarchy when they load the source files.
 ### 1. Create Original Description
 
 This section contains notebooks for creating original descriptions for variables.
-- `create_original_description.ipynb`: Generates original descriptions for each variable based on the DE manual.
+#### 1-1. Define DE manual
+Before running this notebook you must **define a Data‑Extraction (DE) manual** and embed it in the notebook by assigning the complete manual to the variable `protocol`, e.g.:
+
+```python
+protocol = """
+<full DE manual here>
+"""
+```
+
+The DE manual **must include, for *****every***** variable you plan to extract**:
+
+| Field                               | What to specify                                                             |
+| ----------------------------------- | --------------------------------------------------------------------------- |
+| **Variable name**                   | Exact label used in downstream analyses                                     |
+| **Description / definition**        | A concise clinical or methodological definition                             |
+| **Extraction method**               | Where in each paper to look, how to parse the value, unit conversions, etc. |
+| **Calculation method (if derived)** | Formulae for converting SE → SD, CI → SD, medians to means, etc.            |
+| **Allowed response type**           | *numeric*, *text*, *binary*, *choice list*, etc.                            |
+| **Choice list (if applicable)**     | Enumerate every permissible option the model should pick from.              |
+
+*Example excerpt*\
+*(truncated for brevity – see your actual manual for full list)*
+
+```text
+Age_mean                : Mean age in years of participants per arm
+Age_sd                  : SD of age. Use SD = SE*sqrt(n), or SD = (CI_upper – mean)*sqrt(n)/1.96, etc.
+Age_n                   : Sample size used to compute Age_mean
+Ind_clu                 : {individual | cluster}
+ICC_for_cRCT            : If cluster RCT and ICC not reported, default 0.05
+Insomnia diagnosis      : Choose one of {formal_DSM, formal_ICSD, formal_ICD, ...}
+... (continue for all variables) ...
+```
+
+Place the fully detailed manual in the notebook before executing any cells; the subsequent code reads `protocol` directly when generating the original variable descriptions.
+
+#### 1-2. Generate initial meta-prompt
+- `create_original_description.ipynb`: Generates original meta-prompts for each variable based on the DE manual.
 
 The generated initial meta-prompt is [`here`](https://drive.google.com/drive/folders/1OELDlyaUvN1IHaYHQuPJCPZx8yrShY8M?usp=share_link)
 
