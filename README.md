@@ -6,13 +6,13 @@ This repository leverages large language models (LLMs) for systematic review, en
 ## Environment / Installation
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 On Google Colab (at the top of each notebook):
 
 ```python
-!pip install -r requirements.txt
+!pip install -r requirement.txt
 ```
 
 ## Pre‑processing Pipeline (run **before** the notebooks)
