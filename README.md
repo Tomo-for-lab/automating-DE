@@ -3,6 +3,18 @@
 ## Overview
 This repository leverages large language models (LLMs) for systematic review, enabling efficient information extraction. There are Jupyter notebooks to automate the data extraction (DE) process, develop metaprompts, and evaluate results. All notebooks are designed to run on Google Colaboratory. Below are the descriptions of each notebook and their functionalities.
 
+## Environment / Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+On Google Colab (at the top of each notebook):
+
+```python
+!pip install -r requirements.txt
+```
+
 ## Pre‑processing Pipeline (run **before** the notebooks)
 
 | Source format    | Action                                                                                              |
