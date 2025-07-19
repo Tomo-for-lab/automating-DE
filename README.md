@@ -120,7 +120,7 @@ This section focuses on the evaluation of extracted data.
 
 ## Dataset Availability
 
-As mentioned in our paper, the datasets (1, 2, and 3) include many copyrighted research papers. While data extraction from these works is permissible for research purposes, releasing the full papers here would constitute copyright infringement. Consequently, the complete datasets are **not** distributed in this repository. Researchers who wish to access them should **contact the authors directly**.
+As mentioned in our article, the datasets (1, 2, and 3) include many copyrighted research papers. While data extraction from these works is permissible for research purposes, releasing the full datasets here would constitute copyright infringement. Consequently, the complete datasets are **not** distributed in this repository. Researchers who wish to access them can contact us.
 
 ## Citation
 ```
